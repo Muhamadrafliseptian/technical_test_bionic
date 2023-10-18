@@ -1,0 +1,31 @@
+E. Result 1:
+    SELECT DISTINCT item
+    FROM ASSET
+    WHERE item IS NOT NULL;
+    
+    menghasilkan daftar unik dari item yang ada dalam tabel ASSET.
+
+    Result 2:
+    SELECT user_id, GROUP_CONCAT(item) AS asset
+    FROM ASSET
+    GROUP BY user_id;
+   
+    mengelompokkan item berdasarkan user_id dan menggabungkannya dalam satu kolom yang dipisahkan oleh koma.
+
+F. Cypress adalah sebuah software yang sifatnya adalah free dan digunakan untuk melakukan pengujian end to end secara otomatis.
+    Kubernetes merupakan salah satu platform open source dan digunakan untuk kepentingan pengelolaan dan automasi aplikasi
+    ORM (Object-Relational Mapping) suatu cara untuk mendevelop aplikasi dengan menghubungkan objek ke dalam kode dengan struktur datanya dengan database relasional. ORM juga dapat mudah digunakan untuk melakukan koneksi dengan database menggunakan objek dan bahasa pemrograman, tanpa harus menuliskan query SQL yang berbelit-belit
+    Class adalah konsep dalam PBO, jadi class digunakan untuk membuat objek. Class akan mendefinisikan atribut dan metode yang dimiliki objek
+    Function adalah suatu kode yang digunakan untuk membuat suatu fungsi atau aksi tertentu. Function dapat dikelompokkan menjadi bagian bagian yang kecil dalam suatu program.
+    DevOps adalah suatu gabungan antara development dan operations. jadi devops merupakan sebuah prinsip developer untuk menciptakan lingkungan kerja yang praktis dan efisien. salah satu tools yang dapat digunakan dan familiar untuk melakukan prinsip DevOps adalah git
+    Docker adalah platform perangkat lunak untuuk membuat dan menguji aplikasi. dalam docker aplikasi dibungkus oleh kontainer.
+
+G. Architecture Application
+    Cloud Computing
+    Single Page Application
+    Object Oriented Programming
+    
+    Menurut saya di era saat ini di mana teknologi semakin berkembang sangat pesat, teknologi arsitektur yang terbaik
+    Adalah cloud computing. Hal tersebut karena cloud computing menggunakan server yang dapat menjalankan aplikasi tanpa menjalankannya di lokal
+    Tentu ketika aplikasi dijalankan di server akan lebih mudah melakukan maintenance dan jauh lebih aman aplikasi kita
+    
